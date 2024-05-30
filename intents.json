@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Salut",
+        "Hey",
+        "Comment ça va?",
+        "Y a-t-il quelqu'un?",
+        "Bonjour",
+        "Bonne journée",
+        "hello",
+        "hi","good morning"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Bonjour, merci de votre visite",
+        "Salut, que puis-je faire pour vous?",
+        "Salut, comment puis-je vous aider?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "À plus tard", "Adieu","by","bye","good by","ok merci","bien"],
+      "responses": [
+        "À plus tard, merci de votre visite",
+        "Bonne journée",
+        "Au revoir! Revenez bientôt."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup!"],
+      "responses": ["Heureux d'aider!", "À tout moment!", "Avec plaisir"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Quels articles avez-vous?",
+        "Quels types d'articles avez-vous?",
+        "Que vendez-vous?"
+      ],
+      "responses": [
+        "Nous vendons du Pizza , salades et Paninis",
+        "Nous avons des boissons"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Acceptez-vous les cartes de crédit?",
+        "Acceptez-vous Mastercard?",
+        "Puis-je payer avec Paypal?",
+        "Êtes-vous uniquement en espèces?"
+      ],
+      "responses": [
+        "Nous acceptons VISA, Mastercard et Paypal",
+        "Nous acceptons la plupart des principales cartes de crédit, et Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Combien de temps prend la livraison?",
+        "Combien de temps prend l'expédition?",
+        "Quand vais-je recevoir ma livraison?"
+      ],
+      "responses": [
+        "La livraison prend 2 à 4 jours",
+        "L'expédition prend 2 à 4 jours"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Raconte-moi une blague!",
+        "Dis-moi quelque chose de drôle!",
+        "Connaissez-vous une blague?"
+      ],
+      "responses": [
+        "Pourquoi le hipster s'est-il brûlé la bouche? Il a bu le café avant qu'il ne soit cool.",
+        "Que dit le bison quand son fils part à l'université? Bison."
+      ]
+    }
+  ]
+}
